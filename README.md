@@ -1,6 +1,6 @@
 ## nebulaeandstars' dotfiles
 
-This repository contains extra configuration files for programs that I used to use but no longer need, as well as for alternate window managers (i3, bspwm, etc) and games. This does include my "core" dotfiles for xorg, the shell, etc. Those can be found at [nebulaeandstars/dotfiles](https://github.com/nebulaeandstars/dotfiles). Some of the configuration files included here (eg. `bash`) require my core dotfiles in order to function properly, so I would recommend either installing that first or being very picky about what to enable.
+This repository contains extra configuration files for programs that I used to use but no longer need, as well as for alternate window managers (i3, bspwm, etc) and games. This does not include my "core" dotfiles for xorg, the shell, etc. Those can be found at [nebulaeandstars/dotfiles](https://github.com/nebulaeandstars/dotfiles). Some of the configuration files included here (eg. `bash`) require my core dotfiles in order to function properly, so I would recommend either installing that first or being very picky about what to enable.
 
 ### Disclaimer
 
