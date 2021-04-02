@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/">
+	<menu id="root-menu" label="Applications">
+		<item label="urxvt">
+			<action name="Execute">
+				<execute>urxvt</execute>
+			</action>
+		</item>
+		<item label="ranger">
+			<action name="Execute">
+				<execute>urxvt -e ranger</execute>
+			</action>
+		</item>
+		<item label="firefox">
+			<action name="Execute">
+				<execute>firefox</execute>
+			</action>
+		</item>
+		<item label="thunar">
+			<action name="Execute">
+				<execute>thunar</execute>
+			</action>
+		</item>
+		<separator/>
+		<menu id="root-menu-581911" label="Games">
+			<item label="dwarf fortress">
+				<action name="Execute">
+					<execute>urxvt -e dfhack</execute>
+				</action>
+			</item>
+			<item label="dwarf therapist">
+				<action name="Execute">
+					<execute>dwarftherapist</execute>
+				</action>
+			</item>
+			<item label="steam">
+				<action name="Execute">
+					<execute>steam</execute>
+				</action>
+			</item>
+			<item label="steam (runtime)">
+				<action name="Execute">
+					<execute>steam-runtime</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="root-menu-82270" label="Art">
+			<item label="musescore">
+				<action name="Execute">
+					<execute>musescore</execute>
+				</action>
+			</item>
+			<item label="blender">
+				<action name="Execute">
+					<execute>blender</execute>
+				</action>
+			</item>
+			<item label="krita">
+				<action name="Execute">
+					<execute>krita</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="root-menu-353325" label="Office">
+			<item label="zoom">
+				<action name="Execute">
+					<execute>zoom</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="root-menu-442355" label="Compton">
+			<item label="transparency">
+				<action name="Execute">
+					<execute>compton --config ~/.config/compton.conf -b</execute>
+				</action>
+			</item>
+			<item label="no transparency">
+				<action name="Execute">
+					<execute>compton --config ~/.config/compton_notrans.conf -b</execute>
+				</action>
+			</item>
+			<item label="killall">
+				<action name="Execute">
+					<execute>killall compton</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="root-menu-732843" label="System">
+			<item label="blueman">
+				<action name="Execute">
+					<execute>blueman-manager</execute>
+				</action>
+			</item>
+			<item label="pavucontrol">
+				<action name="Execute">
+					<execute>pavucontrol</execute>
+				</action>
+			</item>
+			<item label="nm-connection-editor">
+				<action name="Execute">
+					<execute>nm-connection-editor</execute>
+				</action>
+			</item>
+			<item label="cycle backgrounds">
+				<action name="Execute">
+					<execute>~/scripts/cycle-backgrounds</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="root-menu-303446" label="Openbox">
+			<item label="obconf">
+				<action name="Execute">
+					<execute>obconf</execute>
+				</action>
+			</item>
+			<item label="obmenu">
+				<action name="Execute">
+					<execute>obmenu</execute>
+				</action>
+			</item>
+			<item label="autostart">
+				<action name="Execute">
+					<execute>urxvt -e vim ~/.config/openbox/autostart</execute>
+				</action>
+			</item>
+			<item label="tint2conf">
+				<action name="Execute">
+					<execute>tint2conf</execute>
+				</action>
+			</item>
+			<item label="reconfigure">
+				<action name="Reconfigure"/>
+			</item>
+		</menu>
+		<separator/>
+		<item label="log out">
+			<action name="Exit"/>
+		</item>
+		<item label="reboot">
+			<action name="Execute">
+				<execute>reboot</execute>
+			</action>
+		</item>
+		<item label="shutdown">
+			<action name="Execute">
+				<execute>shutdown now</execute>
+			</action>
+		</item>
+	</menu>
+</openbox_menu>

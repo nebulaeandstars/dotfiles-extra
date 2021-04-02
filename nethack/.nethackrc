@@ -1,0 +1,96 @@
+
+
+# *** PLAYER OPTIONS ***
+
+OPTIONS=name:player,dogname:Lucy,catname:Sir Pounce,horsename:Epona,fruit:guava,boulder:0
+OPTIONS = autopickup,pickup_types:$
+OPTIONS = packorder:")[%!?=/+(*0_`
+
+OPTIONS = time,number_pad:0,lit_corridor,hilite_pet
+
+# *** MENUCOLORS ***
+
+OPTIONS=color,menucolors
+
+MENUCOLOR="water"=cyan
+
+MENUCOLOR="blessed"=lightgreen
+MENUCOLOR="holy "=lightcyan
+MENUCOLOR="cursed"=orange
+MENUCOLOR="unholy"=lightmagenta
+MENUCOLOR="uncursed"=white
+
+MENUCOLOR="being worn"=grey&underline
+MENUCOLOR="cursed.*being worn"=orange&underline
+MENUCOLOR="blessed.*being worn"=lightgreen&underline
+MENUCOLOR="uncursed.*being worn"=white&underline
+
+MENUCOLOR=".*in hand"=grey&underline
+MENUCOLOR="cursed.*in hand"=orange&underline
+MENUCOLOR="blessed.*in hand"=lightgreen&underline
+MENUCOLOR="uncursed.*in hand"=white&underline
+
+MENUCOLOR="bag"=brown
+
+MENUCOLOR="cockatrice"=magenta
+MENUCOLOR="chickatrice"=magenta
+MENUCOLOR="vanish"=magenta
+MENUCOLOR="cancellation"=magenta
+MENUCOLOR="tricks"=red
+MENUCOLOR="(lit)"=yellow
+MENUCOLOR="wishing"=lightcyan
+MENUCOLOR="gold"=yellow
+MENUCOLOR="real"=lightmagenta
+MENUCOLOR="death"=red
+MENUCOLOR="Excalibur"=lightblue
+
+
+# Ensure changes will be shown for a few turns after they happen.
+OPTIONS=statushilites:16
+
+# Title
+OPTIONS=hilite_status:title/changed/white
+OPTIONS=hilite_status:alignment/changed/white
+
+# Always show gold as the proper color.
+OPTIONS=hilite_status:gold/up/yellow/down/brown
+
+# Experience level
+OPTIONS=hilite_status:experience/down/red&bold
+OPTIONS=hilite_status:experience-level/up/cyan&bold/down/red&bold
+
+# Troubles
+OPTIONS=hilite_status:condition/hallu/yellow
+OPTIONS=hilite_status:condition/conf/lightcyan
+OPTIONS=hilite_status:condition/stun/lightmagenta
+OPTIONS=hilite_status:condition/major_troubles/orange
+
+# Attributes
+OPTIONS=hilite_status:armor-class/down/lightgreen/up/orange
+OPTIONS=hilite_status:characteristics/up/lightgreen/down/orange
+OPTIONS=hilite_status:hitpoints-max/up/lightgreen/down/lightmagenta
+OPTIONS=hilite_status:power-max/up/lightcyan/down/lightmagenta
+
+# Hilight multiple encumbrance statuses.
+OPTIONS=hilite_status:cap/burdened/yellow/stressed/orange/strained/red/overtaxed/red/overloaded/red
+
+# Hunger
+OPTIONS=hilite_status:hunger/satiated/lightcyan/hungry/yellow/weak/orange/fainting/lightmagenta/fainted/red
+
+# Percentage cutoffs for hitpoints.
+OPTIONS=hilite_status:hitpoints/100%/white
+OPTIONS=hilite_status:hitpoints/<100%/lightgreen
+OPTIONS=hilite_status:hitpoints/<66%/yellow
+OPTIONS=hilite_status:hitpoints/<40%/orange
+OPTIONS=hilite_status:hitpoints/<15%/red&underline
+OPTIONS=hilite_status:hitpoints/0%/grey
+
+OPTIONS=hilite_status:power/100%/white
+OPTIONS=hilite_status:power/<100%/lightcyan
+OPTIONS=hilite_status:power/<66%/lightblue
+OPTIONS=hilite_status:power/<40%/cyan
+OPTIONS=hilite_status:power/<20%/blue
+OPTIONS=hilite_status:power/0%/grey
+
+
+
